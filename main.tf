@@ -17,6 +17,8 @@ resource "aws_s3_bucket" "project11" {
   tags = {
     Name        = "Project11"
     Environment = "Development"
+    Owner       = "DevOps-Team"
+    Project     = "Branching-Policy"
   }
 }
 
